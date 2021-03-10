@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../discord bot"
+		},
+		{
+			"path": "../BOT"
+		},
+		{
+			"path": "../COW"
+		}
+	],
+	"settings": {
+		"python.linter": "Disable",
+		"python.pythonPath": "/Users/Pachu/opt/anaconda3/envs/disc/bin/pyvenv-3.6"
+	}
+}
