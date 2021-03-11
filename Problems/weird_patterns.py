@@ -60,3 +60,11 @@ def star_pyr(n):
             print("*", end = "")
         print()
 
+def inverse_num_pyr(n):
+    for i in range (n,0,-1):
+        for j in range(1,i+1):  
+            print(j, end="")
+        print()
+
+inverse_num_pyr(6)
+

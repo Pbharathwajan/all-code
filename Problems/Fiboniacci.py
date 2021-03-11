@@ -1,22 +1,14 @@
-
-terms = int(input("Enter number of terms: "))
-
-n1, n2 = 0,1
-
-count = 0
-
-if terms < count:
-    print("Enter a positive integer!")
-    end()
-elif terms == 1:
-    print(n1)
-else:
-    while count < terms:
-        print(n1)
-        nth = n1 + n2
-        n1 = n2
-        n2 = nth
-        count += 1
+lim = int(input("Enter a limit here: "))
+x = 0
+y = 1
+z = 1
+print(x)
+print(y)
+for i in range (1,lim+1):
+    print(z)
+    x = y
+    y = z
+    z = x+y
 
 
 
