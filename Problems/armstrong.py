@@ -10,3 +10,4 @@ if cube == num:
    print(f"The number {num} is an armstrong number.")
 else:
    print(f"The number {num} is not an armstrong number.")
+
