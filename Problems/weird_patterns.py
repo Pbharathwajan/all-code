@@ -60,8 +60,3 @@ def star_pyr(n):
             print("*", end = "")
         print()
 
-star_pyr(6)
-num_pyr(6)
-back_num_pyr(6)
-back_star_pyr(6)
-half_diamond(6)
