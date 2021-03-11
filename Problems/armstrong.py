@@ -1,13 +1,12 @@
-num = int(input("Enter a number: "))  
-sum = 0  
-temp = num  
-  
-while temp > 0:  
-   digit = temp % 10  
-   sum += digit ** 3  
-   temp //= 10  
-  
-if num == sum:  
-   print(f"{num} is an Armstrong number")  
-else:  
-   print(f"{num} is not an Armstrong number")  
+num = int(input("Enter a number here: "))
+numdupe = num
+cube = 0
+
+while numdupe > 0:
+   cube += (numdupe % 10)**3
+   numdupe = numdupe//10
+
+if cube == num:
+   print(f"The number {num} is an armstrong number.")
+else:
+   print(f"The number {num} is not an armstrong number.")
