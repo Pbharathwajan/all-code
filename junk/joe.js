@@ -7,11 +7,11 @@ function joe() {
 
     if (addcheck) {
         var sum = num1 + num2
-        document.getElementById("result").innerHTML = sum;
+        document.getElementById("p1").innerHTML = sum;
     }
     if (subcheck) {
         var diff = num1 - num2
-        document.getElementById("result").innerHTML = diff;
+        document.getElementById("p1").innerHTML = diff;
     }
 
 
