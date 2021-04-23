@@ -1,22 +1,57 @@
 #body {
-    background-color: rgb(31, 30, 30);
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(27, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
 }
 
 #h1 {
     color: turquoise;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #p1 {
     color: purple;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
 }
 
 #result {
     color: chartreuse;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: larger;
+}
+
+#add1 {
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#sub1 {
+    color: chartreuse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+#num1lab {
+    color: rgb(17, 179, 190);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+#num2lab {
+    color: rgb(71, 188, 209);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+#submit {
+    background-color: blue;
+    color: rgb(28, 226, 150);
+    border-style: ridge;
+    border-color: cyan;
+    height: 25px;
+    width: 75px;
+    font: bold 15px Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: darkgray;
 }
