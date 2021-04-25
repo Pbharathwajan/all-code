@@ -18,49 +18,20 @@ async def on_message(message):
     valid_users = [ "fastcandidate", "Joel", "bonk", "Astronot"]
     cunts = ["Sruthi"]
     bad_words = ["bitch", "ass", "fuck", "shit", "penis", "zyugyzarc", "joel"]
-    
-    if str(message.channel) in channels and message.author.name in valid_users:
-        if message.content.find("!hello") != -1:
-            await message.channel.send("Hi") 
-        elif message.content == "!users":
-            await message.channel.send(f"""# of Members: {id.member_count}""")
-        if message.content.startswith("!add"):
+
+    if message.content.startswith("!cunts"):
             try:
-                valid_users.append(message.mentions[0].name)
-                await message.channel.send(f"added user {message.mentions[0].mention}.")
-                print(valid_users)
-            except IndexError:
-                await message.channel.send('no member was tagged.')
-        
-        for word in bad_words:
-            if message.content.count(word) > 0:
-                await message.channel.purge(limit=1)
-                await message.channel.send(f"{message.author.name} has said a bad word!")
-                
-                
-                
-        if message.content.startswith("!cunts"):
-            try:
-                cunts.append(message.mentions[0].name)
+                cunts.append(message.mentions[0])
                 await message.channel.send(f"added user {message.mentions[0].mention}.")
                 print(cunts)
             except IndexError:
                 await message.channel.send('no member was tagged.')
-        
-        
-        if message.author.name in cunts:
-            await message.channel.purge(limit=1)
-            message.channel.send("Stupid cunt")
-        
-        
-
-    
-    
-    if message.content.startswith('!DIO!'):
+  
+    if message.content.startswith('!DIO'):
         await message.channel.send('https://www.youtube.com/watch?v=LjQZaD9EEJ0&list=PLVbxVQf7e2KRz1J34jFf7jDJFDT9lvnQ9&index=3')
 
     if message.content == "&stand":
-        await message.channel.send(choice(open("/Users/Pachu/Documents/pachu/Coding/VS_code/Dio Bot/standnames.txt","r").read().split("\n"))) 
+        await message.channel.send(choice(open("/Users/pachu/Documents/Code/VS_code/Dio_Bot/standnames.txt","r").read().split("\n"))) 
 
     if message.content.startswith('ping'):
         await message.channel.send('pong')
@@ -100,9 +71,13 @@ async def on_message(message):
         await message.channel.send("Kyu byou keika")
         await asyncio.sleep(2)
         await message.channel.send("ZA WARUDO Soshite toki ga ugokidesu!")
+    
+    if message.content in bad_words:
+        await message.reply("retard")
+        await message.delete()
         
 
-client.run('NzE1NTc4MjQ2NzQ5NzQ5Mjc5.Xxhn_g.nVvUSdtpo2xX45P-45WN-WNHdbA')
+client.run('NzE1NTc4MjQ2NzQ5NzQ5Mjc5.Xs_QLA.o4Ey9N-k8omMrYQedTB08FpcJLo')
 
 
 

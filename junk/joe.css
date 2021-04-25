@@ -116,3 +116,9 @@ form>input {
 #num1#num2 {
     font: seriff;
 }
+
+.menubar {
+    display: inline;
+    height: 5%;
+    margin: 0%;
+}
