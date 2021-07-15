@@ -25,7 +25,7 @@ def todec():
         hextodec()
 
     if E == "octal":
-        octtodec()ch
+        octtodec()
 
 
 def tobin():
