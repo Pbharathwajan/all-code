@@ -37,7 +37,7 @@ def back_num_pyr(n):
             print(end = " ")
         k -=2
 
-        for j in range(0,i+1):
+        for j in range(1,i+2):
             print(j, end = " ")
         print()
 
@@ -63,8 +63,14 @@ def star_pyr(n):
 def inverse_num_pyr(n):
     for i in range (n,0,-1):
         for j in range(1,i+1):  
-            print(j, end="")
+            print(j, end=" ")
         print()
 
-inverse_num_pyr(6)
+def column_pyr(size):
+    for i in range(size+1):
+        for j in range(i):
+            print(i, end=' ')
+            i += size-j-1
+        print()
 
+column_pyr(4)
