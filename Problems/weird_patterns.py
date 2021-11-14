@@ -73,4 +73,4 @@ def column_pyr(size):
             i += size-j-1
         print()
 
-column_pyr(4)
+column_pyr(5)

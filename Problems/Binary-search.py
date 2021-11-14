@@ -1,6 +1,6 @@
 a = 1
 b = int(input("Enter upper limit here: "))
-guess = 5000
+guess = 23343
 
 
 num = int(input("Enter number here: "))
